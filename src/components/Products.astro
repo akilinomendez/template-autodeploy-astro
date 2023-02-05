@@ -1,0 +1,22 @@
+---
+import json from '../data/data.json';
+import Card from './Card.astro';
+let data = json.Products;
+---
+
+<div
+	class="mt-10 w-full col-span-2 justify-center justify-self-center text-center px-4"
+>
+	<div class="m-0 flex justify-between p-4">
+		<div class="text-center">
+			<h1 class="font-extrabold text-8xl w-full p-4">Reviews</h1>
+			<h2 class="mt-20 font-semibold text-2xl w-full text-justify">
+				{data.map((item) => <div>{item}</div>)}
+			</h2>
+
+			<div class="flex gap-4 flex-wrap mt-44">
+				{data.map((item, index) => <Card data={item} />)}
+			</div>
+		</div>
+	</div>
+</div>

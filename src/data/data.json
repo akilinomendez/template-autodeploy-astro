@@ -1,0 +1,21 @@
+{
+	"Hero": {
+		"image": "../../public/assets/hero.png",
+		"alt": "CAT CARE HERO ALT TEXT",
+		"text": "CAT CARE EXAMPLE TITLE"
+	},
+	"About": {
+		"text": "Looking for fun things to do in Toronto? When it comes to exploring Canada's largest city, there's an ever-evolving set of activities to choose from. Whether you're looking to visit a local museum or sample the city's varied cuisine, there is plenty to fill any itinerary. In this blog post, I'll share some of my favorite recommendations"
+	},
+	"Products": [
+		"\"Introducing the newest addition to your cat care routine - the Cat Care product! This innovative tool helps to keep your feline friend clean and healthy, with its unique design and easy-to-use features. The soft, silicone bristles gently remove dirt and debris from your cat's coat, while the built-in massager provides a relaxing and enjoyable experience for your pet. The ergonomic handle makes it easy to grip and control, even when wet, and the hanging hole allows for convenient storage.",
+		"Looking for a way to keep your cat clean and healthy? Look no further than the Cat Care product! This innovative tool helps to keep your feline friend clean and healthy, with its unique design and easy-to-use features. The soft, silicone bristles gently remove dirt and debris from your cat's coat, while the built-in massager provides a relaxing and enjoyable experience for your pet. The ergonomic handle makes it easy to grip and"
+	],
+	"globalc": {
+		"main": {
+			"tag": "main",
+			"style": "color : #b71c1c;",
+			"class": "bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900"
+		}
+	}
+}
